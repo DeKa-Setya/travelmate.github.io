@@ -1357,6 +1357,10 @@ label {
 	padding: 24px 0
 }
 
+.site-header-inner img{
+	width: 50%;
+}
+
 .site-header::before {
 	content: '';
 	position: absolute;
@@ -1772,10 +1776,17 @@ main {
 	justify-content: center
 }
 
+.footer-brand img{
+	max-width: 30%;
+	left: 0;
+	top: 0;
+	margin-bottom: -10px;
+}
+
 .footer-brand,
 .footer-links,
 .footer-social-links {
-	margin-bottom: 24px
+	margin-bottom: 24px;
 }
 
 .footer-links li+li,
@@ -1804,8 +1815,17 @@ main {
 	.footer-links,
 	.footer-social-links,
 	.footer-copyright {
-		flex: 50%
+		flex: 60%
 	}
+
+	.footer-brand img{
+		max-width: 20%;
+		left: 0;
+		top: 0;
+		margin-bottom: -70px;
+
+	}
+	
 
 	.footer-brand,
 	.footer-copyright {
